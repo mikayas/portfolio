@@ -1,0 +1,30 @@
+.section-networks {
+    color: var(--colorDefault1);
+}
+
+.networks-text {
+    color: var(--colorGray4);
+    text-align: center;
+}
+
+.main-networks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.network-title-block {
+    color: var(--colorDefault1);
+}
+
+.network-blocks-item {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.block-content-name {
+    color: var(--colorGray3);
+}

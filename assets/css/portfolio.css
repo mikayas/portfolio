@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url("portfolio/resources.css");
+@import url("portfolio/home.css");
+@import url("portfolio/about.css");
+@import url("portfolio/projects.css");
+@import url("portfolio/atributes.css");
+@import url("portfolio/networks.css");
+
+
+body {
+    background-attachment: fixed;
+    background-color: var(--colorGray1);
+    background-image: url("../svg/geral/background_body.svg");
+    background-size: 720px;
+}
+
+a {color: var(--colorDefault2);}
+
+img {display: block; width:100%}
+
+span {display: inline-block;}
+
+.section-page {
+    align-items: center;
+    display: flex;
+    min-height: 98vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    max-width: 760px;
+}
+
+.check-box-function {
+    display: none;
+}
+
+.icon-simple {
+    font-size: 1.5rem;
+    margin: 0.25rem;
+    width: 1.5rem;
+}
+
+.title-container {
+    border-bottom:1px solid var(--colorPrimary1);
+    color: var(--colorPrimary1);
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.subtitle-container {
+    color: var(--colorPrimary1);
+    font: 600 1.5rem var(--fontTitle);
+}

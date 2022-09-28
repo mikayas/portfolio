@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+:root {
+    --colorDefault1: #ffffff;
+    --colorDefault2: #000000;
+    --colorGray1: #0a0a0a;
+    --colorGray2: #161616;
+    --colorGray3: #636363;
+    --colorGray4: #F0F0F0;
+    --colorPrimary1: #ff003d;
+    --colorPrimary2: #ff8282;
+    --colorPrimary3: #230008;
+    --colorTransparent1: #00000086;
+
+    --fontPress: 'Roboto Mono', monospace;
+    --fontTitle: 'MuseoModerno', cursive;
+    --fontDefault: 'Monda', sans-serif;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--colorGray1);
+    min-height: 0.25rem;
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--colorGray3);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--fontDefault);
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media (max-width: 260px) {
+    * {word-break: break-all;}
+}
