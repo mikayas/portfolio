@@ -97,7 +97,14 @@ var profileDev = {
             base: "https://github.com/mikayas/calculadora-digital"
         },
     ],
-    outherProjects: [],
+    outherProjects: [
+        {
+            name: "on-nho",
+            text: "Etapas para se registrar em uma aplicação. Protótipo feito com Figma",
+            link: "https://www.figma.com/proto/ggM8ZkDkPPs9NoYnQJ2oNt/forms?node-id=224%3A325&scaling=min-zoom&page-id=224%3A302&starting-point-node-id=224%3A325",
+            base: "https://www.figma.com/file/ggM8ZkDkPPs9NoYnQJ2oNt/forms?node-id=0%3A1&t=WUWpTwPJmrE4jPpn-1"
+        }
+    ],
     atributes: {
         skills: [
             {

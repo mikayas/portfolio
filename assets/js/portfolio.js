@@ -126,7 +126,7 @@ profileDev.networks.social.map((obj) => {
         <span class="block-content-icon">
             <img src="${obj.icon}" alt="icone"/>
         </span>
-        <a href="${obj.link}" class="block-content-name">${obj.name}</a>
+        <a href="${obj.link}" target="_blank" class="block-content-name">${obj.name}</a>
     </div>`
 });
 
@@ -138,7 +138,7 @@ profileDev.networks.contact.map((obj) => {
         <span class="block-content-icon">
             <img src="${obj.icon}" alt="icone"/>
         </span>
-        <a href="${obj.link}" class="block-content-name">${obj.name}</a>
+        <a href="${obj.link}" target="_blank" class="block-content-name">${obj.name}</a>
     </div>`
 });
 
