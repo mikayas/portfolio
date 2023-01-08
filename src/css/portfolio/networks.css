@@ -1,0 +1,32 @@
+.content-network {
+    justify-content: center;
+}
+
+.main-networks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.network-blocks-item {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.icon-network-block-item {
+    width: 100%;
+    max-width: 3rem;
+}
+
+.name-network-block-item {
+    color: var(--colorGray3);
+}
+
+@media (min-width: 520px) {
+    .network-blocks-item {
+        flex-direction: column;
+    }
+}

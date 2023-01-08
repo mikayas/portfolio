@@ -1,16 +1,7 @@
-@charset "utf-8";
-@import url("portfolio/resources.css");
-@import url("portfolio/home.css");
-@import url("portfolio/about.css");
-@import url("portfolio/projects.css");
-@import url("portfolio/atributes.css");
-@import url("portfolio/networks.css");
-
-
 body {
     background-attachment: fixed;
     background-color: var(--colorGray1);
-    background-image: url("../svg/geral/background_body.svg");
+    background-image: url("../../../public/background_body.svg");
     background-size: 720px;
 }
 
@@ -19,6 +10,10 @@ a {color: var(--colorDefault2);}
 img {display: block; width:100%}
 
 span {display: inline-block;}
+
+.func-no-element {
+    display: none;
+}
 
 .section-page {
     align-items: center;
@@ -34,13 +29,9 @@ span {display: inline-block;}
     flex-direction: column;
     min-height: 85vh;
     justify-content: space-evenly;
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
     max-width: 760px;
-}
-
-.check-box-function {
-    display: none;
 }
 
 .icon-simple {
@@ -55,10 +46,16 @@ span {display: inline-block;}
     font-family: var(--fontTitle);
     font-size: 2rem;
     font-weight: 800;
+    margin: 2rem auto;
     text-align: center;
+    width: 100%;
+    max-width: 760px;
 }
 
 .subtitle-container {
     color: var(--colorPrimary1);
     font: 600 1.5rem var(--fontTitle);
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 760px;
 }

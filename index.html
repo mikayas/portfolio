@@ -1,31 +1,98 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="en">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width initial-scale=1"/>
-        <link rel="stylesheet" href="assets/css/default.css"/>
-        <link rel="stylesheet" href="assets/css/index.css"/>
-        <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-        <title>início | Mikaias Silva</title>
+        <link rel="stylesheet" href="src/default.css"/>
+        <link rel="stylesheet" href="src/css/portfolio.css"/>
+        <link rel="shortcut icon" href="public/logoBold.svg" type="image/x-icon"/>
+        <title>portfolio | Mikaias Silva</title>
     </head>
     <body>
-        <main class="main-container">
-            <div class="headline-main">
-                <div class="logo-headline">
-                    <img src="assets/svg/geral/logo_tilted.svg" alt="logo"/>
+        <input class="func-no-element" id="checkBar" type="checkbox"/>
+        <header class="section-resources">
+            <div class="banner-top-bar">
+                <label class="banner-button-menu" for="checkBar">
+                    <img src='public/icon_menu.svg' alt='icon'/>
+                </label>
+                <span class="banner-text-name add-content-dev-fullname"></span>
+            </div>
+            <div class="guide-lateral-tab">
+                <nav class="nav-pages-menu" id="navMenu">
+                    <div class="header-pres-nav">
+                        <span class="logo-header-nav add-content-logo-low-normal"></span>
+                        <span class="text-header-nav add-content-dev-fullname"></span>
+                    </div>
+                    <ul class="list-sections-menu add-content-list-sections"></ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <a name="ancHome"></a>
+            <section class="section-page section-home">
+                <div class="container-section container-home">
+                    <div class="status-section-home">
+                        <span class="add-content-dev-def1"></span>
+                        <i>|</i>
+                        <span class="add-content-dev-def2"></span>
+                    </div>
+                    <div class="bg-poster-home add-content-bg-poster"></div>
                 </div>
-                <p class="parag-headline">
-                    Olá! 
-                    <span class="frame-headline">
-                        <span class="frame-name-line">Mikaias Silva</span>
-                        <a class="frame-name-link" href="#">Mikaias Silva</a>
-                    </span>
-                    aqui. Sou um desenvolvedor focado em front-end e webdesign
-                </p>
-            </div>
-            <div class="initline-main">
-                <a class="btn-initline" href="public/portfolio.html">abrir portfólio</a>
-            </div>
+            </section>
+            <section class="section-page section-about">
+                <div class="container-section container-about">
+                    <div class="blocks-container-area add-content-block-area"></div>
+                    <h1 class="title-container">about me</h1>
+                    <div class="about-logo-frame">
+                        <div class="about-frame-black add-content-logo-low-black"></div>
+                        <div class="about-frame-pink add-content-logo-low-pink"></div>
+                    </div>
+                    <div class="about-text-pres">
+                        <h2 class="subtitle-container subtitle-parag-pres add-content-subtitle-about"></h2>
+                        <p class="add-content-parag-about"></p>
+                    </div>
+                </div>
+            </section>
+            <a name="ancProjects"></a>
+            <section class="section-page section-projects">
+                <div class="container-section container-projects">
+                    <h1 class="title-container">my projects</h1>
+                    <div class="main-projects">
+                        <h2 class="subtitle-container">main projects</h2>
+                        <div class="group-projects-blocks add-content-main-projects"></div>
+                    </div>
+                    <div class="other-projects">
+                        <h2 class="subtitle-container">other projects</h2>
+                        <div class="group-projects-blocks add-content-other-projects"></div>
+                    </div>
+                </div>
+            </section>
+            <a name="ancAtributes"></a>
+            <section class="section-page section-atributes">
+                <div class="container-section container-atributes">
+                    <h1 class="title-container">my atributes</h1>
+                    <div class="group-atributes">
+                        <h2 class="subtitle-container title-group-atributes">skills</h2>
+                        <div class="block-container-atributes add-content-skills-atributes"></div>
+                    </div>
+                    <div class="group-atributes">
+                        <h2 class="subtitle-container title-group-atributes">lenguages</h2>
+                        <div class="block-container-atributes add-content-lenguage-atributes"></div>
+                    </div>
+                    <div class="group-atributes">
+                        <h2 class="subtitle-container title-group-atributes">tools</h2>
+                        <div class="block-container-atributes add-content-tool-atributes"></div>
+                    </div>
+                </div>
+            </section>
+            <a name="ancNetworks"></a>
+            <section class="section-page">
+                <div class="container-section content-network">
+                    <h1 class="title-container">social networks</h1>
+                    <div class="main-networks add-content-blocks-social"></div>
+                </div>
+            </section>
         </main>
+        <script src="src/js/portfolio.js" type="module" defer></script>
     </body>
 </html>

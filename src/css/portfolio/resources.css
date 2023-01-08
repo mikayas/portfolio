@@ -1,7 +1,7 @@
 .section-resources {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 99;
 }
 
 .banner-top-bar {
@@ -40,7 +40,7 @@
     width: 100%;
 }
 
-.header-press-nav {
+.header-pres-nav {
     display: flex;
     flex-direction: column;
     padding-left: 1rem;

@@ -8,11 +8,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    transform: translateY(-64px);
+    transform: translateY(-72px);
     width: 100%;
 }
 
 .block-content-area {
+    align-items: center;
     box-shadow: 4px 4px 8px #000000;
     background-color: var(--colorGray2);
     color: var(--colorGray3);
@@ -22,6 +23,15 @@
     min-height: 120px;
     padding: 1rem;
     width: 100%;
+}
+
+.icon-block-area {
+    width: 100%;
+    max-width: 2rem;
+}
+
+.text-block-area {
+    text-align: center;
 }
 
 .about-logo-frame {
@@ -39,7 +49,11 @@
     transform: translateY(-100px);
 }
 
-.about-text-press {
+.subtitle-parag-pres {
+    font-size: 2rem;
+}
+
+.about-text-pres {
     margin-left: auto;
     width: 100%;
     max-width: 460px;
@@ -53,7 +67,7 @@
 @media (min-width: 520px) {
     .blocks-container-area {
         flex-direction: row;
-        transform: translateY(-104px);
+        transform: translateY(-92px);
     }
     .block-content-area {
         min-height: 220px;

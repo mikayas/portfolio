@@ -9,15 +9,16 @@
     --colorGray1: #0a0a0a;
     --colorGray2: #161616;
     --colorGray3: #636363;
-    --colorGray4: #F0F0F0;
+    --colorGray4: #d6d6d6;
+    --colorGray5: #F0F0F0;
     --colorPrimary1: #ff003d;
     --colorPrimary2: #ff8282;
     --colorPrimary3: #230008;
     --colorTransparent1: #00000086;
-
-    --fontPress: 'Roboto Mono', monospace;
+    --fontpres: 'Roboto Mono', monospace;
     --fontTitle: 'MuseoModerno', cursive;
     --fontDefault: 'Monda', sans-serif;
+    --shadowLightEffect: 2px 2px 4px black;
 }
 
 ::-webkit-scrollbar {

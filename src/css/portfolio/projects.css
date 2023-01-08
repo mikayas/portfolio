@@ -1,0 +1,194 @@
+.section-projects {
+    background-color: var(--colorDefault1);
+}
+
+.container-projects {
+    width: 100%;
+    max-width: 920px;
+}
+
+.group-projects-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.block-project-main {
+    background-color: var(--colorGray2);
+    box-shadow: 4px 4px 8px black;
+    color: var(--colorDefault1);
+    display: flex;
+    flex-direction: column;
+    max-height: 330px;
+    justify-content: space-evenly;
+    margin: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.layers-block-project-main {
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#block-project-main1 {
+    min-height: 380px;
+    max-width: 260px;
+}
+
+#block-project-main2 {
+    min-height: 360px;
+    max-width: 250px;
+}
+
+#block-project-main3 {
+    min-height: 320px;
+    max-width: 240px;
+}
+
+.header-main-project {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    opacity: 1;
+    z-index: 2;
+}
+
+.body-main-project {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    opacity: 0.07;
+    z-index: 1;
+}
+
+.top-body-main-project {
+    transform: translateY(-40px);
+}
+
+.bottom-body-main-project {
+    transform: translateY(40px);
+}
+
+.icon-main-project {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 6rem;
+}
+
+.make-main-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.icon-make-main-project {
+    width: 100%;
+    max-width: 2rem;
+}
+
+.name-main-project {
+    color: var(--colorGray3);
+    display: block;
+    font-family: var(--fontTitle);
+    font-size: 1rem;
+}
+
+.text-main-project {
+    text-align: center;
+}
+
+.text-main-project {
+    color: var(--colorGray3);
+    margin: 1rem 0;
+}
+
+.link-main-project a {
+    color: var(--colorPrimary2);
+    display: block;
+    text-align: center;
+}
+
+.link-main-project a:hover {
+    text-decoration: underline;
+}
+
+.block-project-main:hover .body-main-project * {
+    transition-duration: 0.5s;
+    transform: translate(0);
+}
+
+.block-project-main:hover .header-main-project {
+    opacity: 0.07;
+    z-index: 1;
+}
+
+.block-project-main:hover .body-main-project {
+    opacity: 1;
+    z-index: 2;
+}
+
+.block-project-other {
+    align-items: center;
+    border: 1px solid var(--colorGray4);
+    display: flex;
+    flex-direction: column;
+    height: 84px;
+    justify-content: space-evenly;
+    margin: 1rem;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    max-width: 244px;
+}
+
+.name-other-project {
+    color: var(--colorGray2);
+    display: block;
+    font-family: var(--fontTitle);
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    transform: translateY(-44px);
+}
+
+.text-other-project {
+    color: var(--colorGray2);
+    text-align: center;
+}
+
+.link-other-project {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link-other-project * {
+    color: var(--colorPrimary1);
+    text-align: center;
+}
+
+.link-other-project *:hover {
+    text-decoration: underline;
+}
+
+.block-project-other:hover .link-other-project {
+    display: flex;
+}
+.block-project-other:hover .text-other-project {
+    display: none;
+}
