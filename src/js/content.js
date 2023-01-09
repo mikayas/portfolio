@@ -10,15 +10,15 @@ var profileDev = {
     },
     areas: [
         {
-            icon: "../src/svg/icon_frontend.svg",
+            icon: "src/svg/icon_frontend.svg",
             text: "web pages with html, css and js"
         },
         {
-            icon: "../src/svg/icon_prototype.svg",
+            icon: "src/svg/icon_prototype.svg",
             text: "prototyping interfaces with figma"
         },
         {
-            icon: "../src/svg/icon_design.svg",
+            icon: "src/svg/icon_design.svg",
             text: "graphic design and responsive applications"
         }
     ],
@@ -27,26 +27,26 @@ var profileDev = {
             poster: "../public/poster_banner.png", 
         },
         logo: {
-            logoLow: "../src/svg/logo_low.svg",
-            logoLowBlack: "../src/svg/logo_low_black.svg",
-            logoLowPink: "../src/svg/logo_low_pink.svg",
+            logoLow: "src/svg/logo_low.svg",
+            logoLowBlack: "src/svg/logo_low_black.svg",
+            logoLowPink: "src/svg/logo_low_pink.svg",
         }
     },
     networks: [
         {
             name: "linkedin/mikaias",
             link: "https://www.linkedin.com/in/mikay4s",
-            icon: "../src/svg/linkedin.svg"
+            icon: "src/svg/linkedin.svg"
         },            
         {
             name: "github/mikaias",
             link: "https://github.com/mikayas",
-            icon: "../src/svg/gtihub.svg"
+            icon: "src/svg/gtihub.svg"
         },
         {
             name: "instagram/mikaias",
             link: "https://instagram.com/mikay4s_eu",
-            icon: "../src/svg/instagram.svg"
+            icon: "src/svg/instagram.svg"
         },
         
     ],
@@ -56,7 +56,7 @@ var profileDev = {
             name: "on-nho",
             text1: "registration phases in an application. including visual id and flux",
             text2: "prototype developed with figma and design mobile",
-            icon: "../src/svg/onnho_mascot.svg",
+            icon: "src/svg/onnho_mascot.svg",
             iconMake1: "src/svg/design.svg",
             iconMake2: "src/svg/figma.svg",
             iconMake3: "src/svg/icon_prototype.svg",
@@ -69,7 +69,7 @@ var profileDev = {
             name: "login form",
             text1: "form to register or enter an account",
             text2: "web project developed with html, css e js",
-            icon: "../src/svg/icon_project_form.svg",
+            icon: "src/svg/icon_project_form.svg",
             iconMake1: "src/svg/html.svg",
             iconMake2: "src/svg/css.svg",
             iconMake3: "src/svg/js.svg",
@@ -82,7 +82,7 @@ var profileDev = {
             name: "landing page",
             text1: "bitcoin quickstart page (design only)",
             text2: "web project developed with html e css",
-            icon: "../src/svg/icon_project_page.svg",
+            icon: "src/svg/icon_project_page.svg",
             iconMake1: "src/svg/html.svg",
             iconMake2: "src/svg/css.svg",
             iconMake3: "src/svg/design.svg",
@@ -119,13 +119,13 @@ var profileDev = {
             {
                 name: "ALGORITHM",
                 level: "BASIC",
-                icon: "../src/svg/logic.svg",
+                icon: "src/svg/logic.svg",
                 text: "programming logic"
             },
             {
                 name: "DESIGN",
                 level: "BASIC",
-                icon: "../src/svg/design.svg",
+                icon: "src/svg/design.svg",
                 text: "web design"
             },
         ],
@@ -133,19 +133,19 @@ var profileDev = {
             {
                 name: "HTML",
                 level: "INTERMEDIARY",
-                icon: "../src/svg/html.svg",
+                icon: "src/svg/html.svg",
                 text: "semantic web pages"
             },
             {
                 name: "CSS",
                 level: "INTERMEDIARY",
-                icon: "../src/svg/css.svg",
+                icon: "src/svg/css.svg",
                 text: "responsive styles"
             },
             {
                 name: "JAVASCRIPT",
                 level: "BASIC",
-                icon: "../src/svg/js.svg",
+                icon: "src/svg/js.svg",
                 text: "manipulation of web pages"
             }
         ],
@@ -153,13 +153,13 @@ var profileDev = {
             {
                 name: "FIGMA",
                 level: "INTERMEDIARY",
-                icon: "../src/svg/figma.svg",
+                icon: "src/svg/figma.svg",
                 text: "prototypes"
             },
             {
                 name: "GIT",
                 level: "BASIC",
-                icon: "../src/svg/git.svg",
+                icon: "src/svg/git.svg",
                 text: "code versioning"
             },
         ]
@@ -167,22 +167,22 @@ var profileDev = {
     resouces: [
         {
             name: "home",
-            icon: "../src/svg/icon_home.svg",
+            icon: "src/svg/icon_home.svg",
             anc: "#ancHome"
         },
         {
             name: "projects",
-            icon: "../src/svg/icon_projects.svg",
+            icon: "src/svg/icon_projects.svg",
             anc: "#ancProjects"
         },
         {
             name: "atributes",
-            icon: "../src/svg/icon_atributes.svg",
+            icon: "src/svg/icon_atributes.svg",
             anc: "#ancAtributes"
         },
         {
             name: "contact",
-            icon: "../src/svg/icon_contact.svg",
+            icon: "src/svg/icon_contact.svg",
             anc: "#ancNetworks"
         },
     ]
