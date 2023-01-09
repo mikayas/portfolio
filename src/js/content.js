@@ -24,7 +24,7 @@ var profileDev = {
     ],
     personalImg: {
         img: {
-            poster: "../public/poster_banner.png", 
+            poster: "public/poster_banner.png", 
         },
         logo: {
             logoLow: "src/svg/logo_low.svg",
