@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+.portfolio-bar {
+   align-items: center;
+   background-color: var(--color-gray-1);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 0 1rem;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+
+.portfolio-bar__logo {
+   max-width: 3.5rem;
+}
+
+.portfolio-bar__title {
+   color: var(--color-primary-1);
+   font: 400 0.75rem var(--font-main);
+}
+
+.portfolio-page section {
+   align-items: center;
+   background-color: var(--color-white);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   min-height: 95vh;
+   padding: 0 1rem;
+}
+
+.group-blocks {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+}
+
+.block-united {
+   margin: 1rem 0;
+}
+
+.anchor-link {
+   color: var(--color-primary-1);
+   display: block;
+   text-align: center;
+}
+
+.anchor-link:hover {
+   text-decoration: underline;
+}
+
+.portfolio-page__title {
+   color: var(--color-primary-1);
+   margin: 0 0 2.5rem 0;
+   width: 100%;
+}
+
+.portfolio-page__title h2 {
+   border-bottom: 1px solid var(--color-primary-1);
+   font: 700 2rem var(--font-main);
+}
+
+.portfolio-page__title span {
+   font: 300 1.25rem var(--font-main);
+}
+
+.portfolio-banner {
+   background-color: var(--color-gray-1) !important;
+}
+
+.portfolio-banner__tags {
+   background-image: linear-gradient(to right, var(--color-gray-5), var(--color-primary-2));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.portfolio-banner__poster {
+   max-width: 460px;
+}
+
+.project-card {
+   background: url("../images/covers.jpg") no-repeat center 120% fixed;
+   background-size: auto 100%;
+   box-shadow: 4px 4px 4px var(--color-gray-2-90);
+   height: 280px;
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   max-width: 220px;
+}
+
+.project-card:nth-child(1) {
+   height: 320px;
+   max-width: 260px;
+}
+
+.project-card:nth-child(2) {
+   height: 300px;
+   max-width: 230px;
+}
+
+.project-card > * {
+   align-items: center;
+   color: var(--color-gray-5);
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   justify-content: space-between;
+   padding: 1rem;
+   transition-duration: 0.5s;
+}
+
+.project-card__front {
+   background-color: var(--color-gray-2);
+   justify-content: space-evenly;
+}
+
+.project-card__front .card-name {
+   font-weight: 700;
+}
+
+.project-card__front .card-image {
+   max-width: 100px;
+}
+
+.project-card__front .card-text {
+   font-size: 0.75rem;
+   text-align: center;
+}
+
+.project-card__back {
+   background-color: var(--color-gray-2);
+   left: 0;
+   position: absolute;
+   opacity: 0.05;
+   top: 0;
+   width: 100%;
+}
+
+.project-card__back > * {
+   transition-duration: 0.5s;
+}
+
+.project-card__back .card-header {
+   transform: translateY(-3rem);
+}
+
+.project-card__back .card-icons {
+   display: block;
+   font-size: 2rem;
+   text-align: center;
+}
+
+.project-card__back .card-text {
+   display: block;
+   font-size: 0.75rem;
+   text-align: center;
+}
+
+.project-card__back .card-links {
+   transform: translateY(1rem);
+}
+
+.project-card:hover .project-card__front {
+   opacity: 0;
+}
+
+.project-card:hover .project-card__back {
+   opacity: 1;
+   background-color: var(--color-gray-2-90);
+}
+
+.project-card:hover .project-card__back .card-header, .project-card:hover .project-card__back .card-links{
+   transform: translateY(0);
+}
+
+.portfolio-atributes {
+   background-color: var(--color-gray-5) !important;
+   border-radius: 0 0 16px 16px;
+}
+
+.atributes-block {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.atributes-block i {
+   color: var(--color-gray-3);
+   font-size: 2.5rem;
+}
+
+.atributes-block .block-name {
+   color: var(--color-primary-1);
+}
+
+.atributes-block .block-text {
+   color: var(--color-gray-3);
+   font-size: 0.75rem;
+}
+
+.portfolio-networks {
+   background-color: transparent !important;
+}
+
+.network-block {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.network-block i {
+   color: var(--color-primary-1);
+   font-size: 3rem;
+}
+
+.network-block a {
+   color: var(--color-gray-4);
+   font-size: 0.75rem;
+   font-weight: 300;
+}
+
+@media (min-width: 667px) {
+   .portfolio-page section {
+      padding: 0 10vh;
+   }
+}
+
+@media (min-width: 820px) {
+   .portfolio-page section {
+      padding: 0 15vh;
+   }
+}
+
+@media (min-width: 992px) {
+   .group-blocks {
+      flex-direction: row;
+      flex-wrap: wrap;
+   }
+   .block-united {
+      margin: 0 1rem;
+   }
+}
+
+@media (min-width: 1024px) {
+   .portfolio-page section {
+      padding: 0 20vh;
+   }
+}
+
+@media (min-width: 1280px) {
+   .portfolio-page section {
+      padding: 0 30vh;
+   }
+}
